@@ -25,7 +25,7 @@ jobs:
         run: yarn install
 
       - name: 📦 Init EAS
-        run: eas init
+        run: eas init --id b8230080-0e93-4715-b7bf-184a3c79b363
 
       - name: 🚀 Create preview
         uses: expo/expo-github-action/preview@v8
